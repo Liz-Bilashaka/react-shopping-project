@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.ffe2c9f5.css",
-    "main.js": "./static/js/main.bbb72135.js",
-    "static/js/787.6d4f3d8c.chunk.js": "./static/js/787.6d4f3d8c.chunk.js",
-    "static/media/logo.svg": "./static/media/logo.4fe9c1e86cf9bf600f0c239f6a6e5317.svg",
-    "index.html": "./index.html",
-    "main.ffe2c9f5.css.map": "./static/css/main.ffe2c9f5.css.map",
-    "main.bbb72135.js.map": "./static/js/main.bbb72135.js.map",
-    "787.6d4f3d8c.chunk.js.map": "./static/js/787.6d4f3d8c.chunk.js.map"
+    "main.css": "/react-shopping-project/static/css/main.ffe2c9f5.css",
+    "main.js": "/react-shopping-project/static/js/main.e4e6d45b.js",
+    "static/js/787.6d4f3d8c.chunk.js": "/react-shopping-project/static/js/787.6d4f3d8c.chunk.js",
+    "static/media/logo.svg": "/react-shopping-project/static/media/logo.4fe9c1e86cf9bf600f0c239f6a6e5317.svg",
+    "index.html": "/react-shopping-project/index.html",
+    "main.ffe2c9f5.css.map": "/react-shopping-project/static/css/main.ffe2c9f5.css.map",
+    "main.e4e6d45b.js.map": "/react-shopping-project/static/js/main.e4e6d45b.js.map",
+    "787.6d4f3d8c.chunk.js.map": "/react-shopping-project/static/js/787.6d4f3d8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe2c9f5.css",
-    "static/js/main.bbb72135.js"
+    "static/js/main.e4e6d45b.js"
   ]
 }
