@@ -2,12 +2,15 @@ import React, { useContext, useState } from 'react';
 import logo from './logo.png';
 import './App.css';
 
+import AppBar from './components/navBar'
+import ProductPage from './components/productPage'
 
 import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
 import shadows, { Shadows } from '@mui/material/styles/shadows';
 
 import {ProductContext } from './context/productContext'
 import { Typography } from '@mui/material';
+
 
 
 
@@ -96,7 +99,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <ProductContext.Provider value={{cartQuantity,setCartQuantity}}>
         <div className="App">
-          <Typography variant='h1'>React Shopping Project</Typography>
+        <AppBar quantity={cartQuantity}/>
+        <ProductPage />
         </div>
     </ProductContext.Provider>
     </ThemeProvider>
