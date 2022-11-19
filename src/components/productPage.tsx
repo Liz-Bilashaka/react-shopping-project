@@ -4,8 +4,7 @@ import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 
 import ImageCarousel from '../components/imageCarousel'
-
-
+import ProductDetail from '../components/productDetail'
 
 export default function ProductPage() {
   return (
@@ -15,7 +14,7 @@ export default function ProductPage() {
           <ImageCarousel/>
         </Grid>
         <Grid xs={12} sm={12} md={6} sx={{display:'flex', alignItems:'center',padding:{xs: '2rem 2rem 0', sm: '0 2rem'},}}>
-        <Typography> Product Detail</Typography>
+          <ProductDetail/>
         </Grid>
       </Grid>
     </Box>
