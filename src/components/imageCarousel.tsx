@@ -54,7 +54,7 @@ function ImageCarousel() {
                     opacity: 0.8,
                   },
                 }}
-                src={image.bigImage}
+                src={`${process.env.PUBLIC_URL}/${image.bigImage}`}
                 alt="shoe"
               />
               {/* DIALOG HERE */}
@@ -142,7 +142,7 @@ function ImageCarousel() {
                 },
                 cursor: "pointer",
               }}
-              src={image.thumbnail}
+              src={`${process.env.PUBLIC_URL}/${image.thumbnail}`}
               alt="shoe"
             />
           </Grid>

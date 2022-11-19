@@ -61,7 +61,7 @@ export default function DrawerAppBar(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "left" }}>
       <Typography variant="h6" sx={{ my: 2, ml: 2, cursor: "pointer" }}>
-        <img src="/images/icon-close.svg" alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/images/icon-close.svg`} alt="logo" />
       </Typography>
       <Divider sx={{ display: { xs: "none", sm: "block" } }} />
       <List>
@@ -164,7 +164,7 @@ export default function DrawerAppBar(props: Props) {
             </IconButton>
 
             <IconButton sx={{ p: 1 }}>
-              <Avatar alt="Remy Sharp" src="/images/image-avatar.png" />
+              <Avatar alt="Remy Sharp" src={`${process.env.PUBLIC_URL}/images/image-avatar.png`}/>
             </IconButton>
           </Box>
           <Menu

@@ -77,7 +77,7 @@ function ImageDialog(Props: any) {
                     width: "100%",
                     borderRadius: { xs: 0, sm: "1rem" },
                   }}
-                  src={image.bigImage}
+                  src={`${process.env.PUBLIC_URL}/${image.bigImage}`}
                   alt="shoe"
                 />
               ) : null}
@@ -169,7 +169,7 @@ function ImageDialog(Props: any) {
 
                     cursor: "pointer",
                   }}
-                  src={image.thumbnail}
+                  src={`${process.env.PUBLIC_URL}/${image.thumbnail}`}
                   alt="shoe"
                 />
               </Grid>
