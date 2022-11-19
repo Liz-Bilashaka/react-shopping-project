@@ -20,8 +20,7 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 
-
-
+import Cart from "./cart";
 import logo from "../logo.svg";
 
 interface Props {
@@ -208,7 +207,7 @@ export default function DrawerAppBar(props: Props) {
             </MenuItem>
             <Divider />
             <MenuItem>
-             <Typography>Cart Component</Typography>
+              <Cart />
             </MenuItem>
           </Menu>
         </Toolbar>
