@@ -26,6 +26,7 @@ export default function CartItem() {
                 width: "100%",
                 borderRadius: "0.5rem",
               }}
+              
               src={`${process.env.PUBLIC_URL}/${data[0].images[0].thumbnail}`}
               alt={`${process.env.PUBLIC_URL}/${data[0].name}`}
             />

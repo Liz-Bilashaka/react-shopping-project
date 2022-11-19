@@ -6,6 +6,12 @@ This project was bootstrapped with React Context [https://reactjs.org/docs/conte
 
 In the project directory, you can run:
 
+### `npm run deploy`
+
+Builds to Production in github page
+Open [https://liz-bilashaka.github.io/react-shopping-project/](https://liz-bilashaka.github.io/react-shopping-project/) to view it in the browser.
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
